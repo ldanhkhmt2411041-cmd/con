@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Form\FormDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\FormDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\FormRountine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\FormSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\FormTraCuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
