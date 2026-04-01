@@ -1,4 +1,8 @@
-- Bấm vô Database -> Tải file .sql về -> Mở file trong SQL -> Chạy hết code để tạo Database
-- Trong trang này, bấm vô <>Code để tải về -> Open with Visual Studio
-- Qua phần code của tất cả các Form (trừ FormMenu) -> Ctr + F tìm dòng "string chuoiKetNoi =..." -> đổi Data Source = sever_name bên SQL của mấy ông
-- Chạy app
+- Database Schema Provisioning
+Retrieve the source-controlled sequel deployment script from the repository. Initialize a session within your RDBMS and execute the batch script to define the Schema, enforce Relational Constraints, and hydrate the database entities.
+
+- Workspace Initialization
+Perform a Pull/Clone of the source primitives from the remote repository. Launch the solution within the Visual Studio IDE to facilitate dependency indexing and construct the project's build-tree.
+
+- Data Provider Refactoring
+Navigate through the Partial Classes within the UI layer (excluding FormMenu). Execute a Global Search to locate the 'connection' identifier. Override the Data Source attribute within the Connection String to align with your local SQL Server Instance parameters.
